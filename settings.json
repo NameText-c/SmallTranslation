@@ -1,4 +1,9 @@
 {
     "language.use": "en_us",
-    "language.file_name": "lang_*.json"
+    "language.file_name": "lang_*.json",
+    "translation.translation_tool.link": "https://cn.bing.com/translator?text={text}&from={from_lang}&to={to_lang}",
+    "translation.translation_tool.language_identifiers": {
+        "zh_cn": "zh_Hans",
+        "en_us": "en"
+    }
 }
