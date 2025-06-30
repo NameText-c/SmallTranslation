@@ -9,7 +9,7 @@ try:
     import pyperclip
 except ModuleNotFoundError:
     # Show error if pyperclip is not installed
-    tkinter.messagebox.showerror("Can't found moudle: pyperclip","You can run \"pip install pyperclip\" to solve the problem Error\n\nError: ModuleNotFoundError")
+    tkinter.messagebox.showerror("Module not found: pyperclip", "You can run \"pip install pyperclip\" to solve this problem.\n\nError: ModuleNotFoundError")
     exit()
 
 # Load settings from settings.json
@@ -98,9 +98,9 @@ class main_window:
                     url = self.translation_url.format(text=current_clipboard_content, from_lang=from_lang, to_lang=to_lang)
                     webbrowser.open_new(url)
                     last_clipboard_content = current_clipboard_content
-            except:
+            except Exception as e:
                 # Show error if clipboard reading fails
-                tkinter.messagebox.showerror(LANG["app.name"], "An unknown error occurred while reading the clipboard.")
+                tkinter.messagebox.showerror(LANG["app.name"], f"An unknown error occurred while reading the clipboard.\n\nError: {e}")
                 break
 
     def on_close(self):
