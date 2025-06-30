@@ -1,0 +1,13 @@
+{
+    "app.name": "SmallTranslation",
+    "language.list": {
+        "zh_cn": "Chinese (Simplified)",
+        "en_us": "English"
+    },
+    "ui.main_window.monitor_clipboard_label_frame.text": "Clipboard Monitor",
+    "ui.main_window.start_monitor_clipboard_button.text": "Start",
+    "ui.main_window.stop_monitor_clipboard_button.text": "Stop",
+    "ui.main_window.language_label_frame.text": "Language Selection",
+    "ui.main_window.from_language_label.text": "From Language:",
+    "ui.main_window.to_language_label.text": "To Language:"
+}

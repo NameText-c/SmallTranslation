@@ -1,0 +1,13 @@
+{
+    "app.name": "SmallTranslation",
+    "language.list": {
+        "zh_cn": "中文（简体）",
+        "en_us": "英语"
+    },
+    "ui.main_window.monitor_clipboard_label_frame.text": "剪贴板窃听",
+    "ui.main_window.start_monitor_clipboard_button.text": "启动",
+    "ui.main_window.stop_monitor_clipboard_button.text": "停止",
+    "ui.main_window.language_label_frame.text": "语言选择",
+    "ui.main_window.from_language_label.text": "源语言：",
+    "ui.main_window.to_language_label.text": "目标语言："
+}
