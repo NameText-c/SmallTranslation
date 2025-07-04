@@ -22,4 +22,4 @@ When it detects a change in the clipboard contents, it opens a URL to a translat
 
 ## How to use?
 
-Run [main.py](/main.py)
+Run [main.py](/main.py).
