@@ -13,13 +13,13 @@ except ModuleNotFoundError:
     exit()
 
 # Load settings from settings.json
-SETTINGS_PATH = os.path.join(os.path.dirname(__file__), 'settings.json')
-with open(SETTINGS_PATH, 'r', encoding='utf-8') as f:
+SETTINGS_PATH = os.path.join(os.path.dirname(__file__), "settings.json")
+with open(SETTINGS_PATH, "r", encoding="utf-8") as f:
     settings = json.load(f)
-lang_code = settings.get('language.use', 'en_us')
+lang_code = settings.get("language.use", "en_us")
 lang_file = f"lang_{lang_code}.json"
 LANG_PATH = os.path.join(os.path.dirname(__file__), lang_file)
-with open(LANG_PATH, 'r', encoding='utf-8') as f:
+with open(LANG_PATH, "r", encoding="utf-8") as f:
     LANG = json.load(f)
 
 class main_window:
